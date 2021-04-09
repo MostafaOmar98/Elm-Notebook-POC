@@ -9,3 +9,6 @@ Implements vscode's notebook proposed API: https://code.visualstudio.com/api/ext
 Here is a gif demonstrating the capabilities of the POC  
 
 [![poc.gif](https://s4.gifyu.com/images/poc.gif)](https://gifyu.com/image/YRi7)
+
+
+Kinda inspired from: https://github.com/microsoft/vscode-github-issue-notebooks
