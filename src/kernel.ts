@@ -64,9 +64,7 @@ export class ElmKernel implements vscode.NotebookKernel {
     async executeCellsRequest(document: vscode.NotebookDocument, ranges: vscode.NotebookCellRange[]): Promise<void> {
 		const cells: vscode.NotebookCell[] = [];
 		for (let range of ranges) {
-			for (let i = range.start; i < range.end; i++) {
-				cells.push(document.cells[i]);
-			}
+            cells.push(...document.getCells(range));
 		}
 		this._executeCells(cells);
     }

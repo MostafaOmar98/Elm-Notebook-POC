@@ -25,9 +25,6 @@ export class ElmNotebookContentProvider implements vscode.NotebookContentProvide
 		}
 	}
 
-	async resolveNotebook(): Promise<void> { 
-		// console.log("Entered Resolve");
-	}
 	async saveNotebook(): Promise<void> {
 		// console.log("Entered Save");
 	 }
